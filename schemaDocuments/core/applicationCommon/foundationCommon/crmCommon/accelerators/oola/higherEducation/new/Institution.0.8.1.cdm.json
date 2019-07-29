@@ -1,0 +1,53 @@
+{
+    "jsonSchemaSemanticVersion": "0.7.0",
+    "imports": [
+        {
+            "corpusPath": "_allImports.0.8.1.cdm.json"
+        }
+    ],
+    "definitions": [
+        {
+            "entityName": "Institution",
+            "extendsEntity": "CdsStandard",
+            "exhibitsTraits": [
+                {
+                    "traitReference": "is.localized.displayedAs",
+                    "arguments": [
+                        {
+                            "entityReference": {
+                                "entityShape": "localizedTable",
+                                "constantValues": [
+                                    [
+                                        "en",
+                                        "Course"
+                                    ]
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "traitReference": "is.localized.describedAs",
+                    "arguments": [
+                        {
+                            "entityReference": {
+                                "entityShape": "localizedTable",
+                                "constantValues": [
+                                    [
+                                        "en",
+                                        "Any institution which should not be regarded as strictly a business partner or customer."
+                                    ]
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ],
+            "displayName": "Institution",
+            "description": "Any institution which should not be regarded as strictly a business partner or customer.",
+            "sourceName": "mshied_course",
+            "version": "0.8.1",
+            "hasAttributes": []
+        }
+    ]
+}
